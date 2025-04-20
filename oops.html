@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tesla</title>
+    <title>Car Details</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -41,7 +41,14 @@
         td {
             background-color: #f9f9f9;
             color: #333;
-        }   
+        }
+        tr:nth-child(even) td {
+            background-color: #f1f1f1;
+        }
+        tr:hover td {
+            color: #00796b; /* Text color change on hover */
+            font-weight: bold; /* Text becomes bold on hover */
+        }
         .container {
             max-width: 1000px;
             margin: auto;
@@ -62,7 +69,7 @@
 <body>
 
 <div class="container">
-    <h2>Detailed Car Information</h2>
+    <h2>Car Information</h2>
 
     <table>
         <tr>
@@ -114,17 +121,17 @@
         <tr>
             <td>Max Speed</td>
             <td>int</td>
-            <td class="value">180</td>
+            <td class="value">180 km/h</td>
         </tr>
         <tr>
             <td>Horsepower</td>
             <td>int</td>
-            <td class="value">121</td>
+            <td class="value">121 HP</td>
         </tr>
         <tr>
             <td>0-100 km/h Time</td>
             <td>String</td>
-            <td class="value">10s</td>
+            <td class="value">10.5 seconds</td>
         </tr>
         <tr>
             <td>Fuel Efficiency</td>
@@ -148,15 +155,15 @@
         <tr>
             <td>Infotainment System</td>
             <td>String</td>
-            <td class="value">Touchscreen</td>
+            <td class="value">Touchscreen Display</td>
         </tr>
         <tr>
-            <td>Bluetooth Connectivity</td>
+            <td>Bluetooth</td>
             <td>String</td>
             <td class="value">Yes</td>
         </tr>
         <tr>
-            <td>Navigation System</td>
+            <td>Navigation</td>
             <td>String</td>
             <td class="value">GPS</td>
         </tr>
@@ -168,7 +175,7 @@
         <tr>
             <td>Airbags</td>
             <td>String</td>
-            <td class="value">Front & Side</td>
+            <td class="value">Front and Side</td>
         </tr>
     </table>
 
