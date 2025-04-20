@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detailed Car Information</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f9;
+            padding: 20px;
+            margin: 0;
+            color: #333;
+        }
+        h2 {
+            text-align: center;
+            font-size: 28px;
+            margin-bottom: 30px;
+            color: #4c4c4c;
+            letter-spacing: 1px;
+        }
+        table {
+            width: 85%;
+            margin: 0 auto;
+            border-collapse: collapse;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            padding: 14px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+            font-size: 16px;
+        }
+        th {
+            background-color: #00796b;
+            color: white;
+            font-weight: 600;
+        }
+        td {
+            background-color: #f9f9f9;
+            color: #333;
+        }   
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+        }
+        .section-title {
+            text-align: center;
+            font-size: 22px;
+            color: #00796b;
+            margin-top: 50px;
+        }
+        .value {
+            font-weight: 500;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Detailed Car Information</h2>
+
+    <table>
+        <tr>
+            <th>Class Name</th>
+            <th>Property</th>
+            <th>Data Type</th>
+            <th>Value</th>
+        </tr>
+        <tr>
+            <td rowspan="6">Car</td>
+            <td>Make</td>
+            <td>String</td>
+            <td class="value">Toyota</td>
+        </tr>
+        <tr>
+            <td>Model</td>
+            <td>String</td>
+            <td class="value">Corolla</td>
+        </tr>
+        <tr>
+            <td>Year</td>
+            <td>int</td>
+            <td class="value">2020</td>
+        </tr>
+        <tr>
+            <td>Engine Type</td>
+            <td>String</td>
+            <td class="value">Hybrid</td>
+        </tr>
+        <tr>
+            <td>Color</td>
+            <td>String</td>
+            <td class="value">Silver</td>
+        </tr>
+        <tr>
+            <td>Fuel Type</td>
+            <td>String</td>
+            <td class="value">Petrol</td>
+        </tr>
+    </table>
+
+    <div class="section-title">Performance & Safety</div>
+    <table>
+        <tr>
+            <th>Property</th>
+            <th>Data Type</th>
+            <th>Value</th>
+        </tr>
+        <tr>
+            <td>Max Speed</td>
+            <td>int</td>
+            <td class="value">180</td>
+        </tr>
+        <tr>
+            <td>Horsepower</td>
+            <td>int</td>
+            <td class="value">121</td>
+        </tr>
+        <tr>
+            <td>0-100 km/h Time</td>
+            <td>String</td>
+            <td class="value">10s</td>
+        </tr>
+        <tr>
+            <td>Fuel Efficiency</td>
+            <td>String</td>
+            <td class="value">18 km/l</td>
+        </tr>
+        <tr>
+            <td>Safety Rating</td>
+            <td>String</td>
+            <td class="value">5 stars</td>
+        </tr>
+    </table>
+
+    <div class="section-title">Technology & Features</div>
+    <table>
+        <tr>
+            <th>Property</th>
+            <th>Data Type</th>
+            <th>Value</th>
+        </tr>
+        <tr>
+            <td>Infotainment System</td>
+            <td>String</td>
+            <td class="value">Touchscreen</td>
+        </tr>
+        <tr>
+            <td>Bluetooth Connectivity</td>
+            <td>String</td>
+            <td class="value">Yes</td>
+        </tr>
+        <tr>
+            <td>Navigation System</td>
+            <td>String</td>
+            <td class="value">GPS</td>
+        </tr>
+        <tr>
+            <td>Driver Assistance</td>
+            <td>String</td>
+            <td class="value">Lane Assist</td>
+        </tr>
+        <tr>
+            <td>Airbags</td>
+            <td>String</td>
+            <td class="value">Front & Side</td>
+        </tr>
+    </table>
+
+    <div class="section-title">Environmental Impact</div>
+    <table>
+        <tr>
+            <th>Property</th>
+            <th>Data Type</th>
+            <th>Value</th>
+        </tr>
+        <tr>
+            <td>CO2 Emissions</td>
+            <td>String</td>
+            <td class="value">120 g/km</td>
+        </tr>
+        <tr>
+            <td>Environmental Rating</td>
+            <td>String</td>
+            <td class="value">B</td>
+        </tr>
+        <tr>
+            <td>Recyclable Materials</td>
+            <td>String</td>
+            <td class="value">80%</td>
+        </tr>
+        <tr>
+            <td>Energy Efficiency</td>
+            <td>String</td>
+            <td class="value">A+</td>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>
